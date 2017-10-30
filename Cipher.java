@@ -1,4 +1,4 @@
 abstract class Cipher{
-	public abstract char[] encrypt(char[] message);
-	public abstract char[] encrypt(char[] ciphertext);
+	public abstract char[] encrypt(char[] message, char[] key);
+	public abstract char[] encrypt(char[] ciphertext, char[] key);
 }
